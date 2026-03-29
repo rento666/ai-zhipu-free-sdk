@@ -1,0 +1,8 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "ai-zhipu-free-sdk": "0.0.1"
+  },
+  "changesets": []
+}

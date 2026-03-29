@@ -1,0 +1,65 @@
+{
+  "name": "ai-zhipu-free-sdk",
+  "version": "0.0.1",
+  "description": "智谱AI免费模型快捷接入库 - 支持文本对话和多模态看图，浏览器与Node.js通用",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "npm run build && changeset publish"
+  },
+  "keywords": [
+    "zhipu",
+    "zhipuai",
+    "glm",
+    "ai",
+    "llm",
+    "chat",
+    "multimodal",
+    "free",
+    "sdk"
+  ],
+  "author": "rento666",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rento666/ai-zhipu-free-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/rento666/ai-zhipu-free-sdk/issues"
+  },
+  "homepage": "https://github.com/rento666/ai-zhipu-free-sdk#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "sideEffects": false
+}
