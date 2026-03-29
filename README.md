@@ -2,6 +2,9 @@
 
 智谱AI免费模型快捷接入库 - 支持文本对话、多模态看图、视频和文件理解，浏览器与Node.js通用。
 
+[![NPM Version](https://img.shields.io/npm/v/ai-zhipu-free-sdk)](https://www.npmjs.com/package/ai-zhipu-free-sdk)
+[![License](https://img.shields.io/npm/l/ai-zhipu-free-sdk)](LICENSE)
+
 ## ✨ 特性
 
 - **填 API Key 直接调用**
