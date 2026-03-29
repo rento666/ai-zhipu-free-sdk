@@ -47,7 +47,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rento666/ai-zhipu-free-sdk"
+    "url": "git+https://github.com/rento666/ai-zhipu-free-sdk.git"
   },
   "bugs": {
     "url": "https://github.com/rento666/ai-zhipu-free-sdk/issues"
